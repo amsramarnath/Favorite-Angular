@@ -1,0 +1,15 @@
+
+
+<app-panel>
+    <ng-container class="heading" > Header </ng-container>
+    <!--<div class="heading">Heading</div> -->
+    <div class="body">
+        <h2>Body</h2>
+        <p>Paragraph</p>
+    </div>
+
+</app-panel>
+
+<favorite class="float-left" [is-favorite] = "post.isFavorite" (change) = "onFavoriteChanged($event)"></favorite> 
+<!-- <app-like class="float-left lsp10"></app-like> -->
+<app-like class=" float-left lsp10" [likesCount] = "like.likesCount" [isAcive] = "like.isLiked"></app-like>

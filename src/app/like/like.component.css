@@ -1,0 +1,9 @@
+.glyphicon{
+    color :#ccc;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.highlighted{
+    color: blue;
+}
